@@ -1,0 +1,14 @@
+to get the list of running processes
+~ps -aux
+
+to ropen the crontab
+~crontab -e
+
+to save the crontab
+~ctrl + x
+
+to run a process in foreground
+~python3 <filename>
+
+to check the time and date
+~timedatectl

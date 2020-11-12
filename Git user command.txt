@@ -1,0 +1,33 @@
+to check the user list
+~git config --global --list
+
+to unset the the user
+~git config --global --unset user.email
+~git config --global --unset user.name
+
+to set a global user
+~git config --global user.email awronno.adhar@gmail.com
+~git config --global user.name pialnoman
+
+Create a new repository
+git clone https://gitlab.com/kibria2018/wasa_v7.6.git
+cd wasa_v7.6
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+cd existing_folder
+git init
+git remote add origin https://gitlab.com/kibria2018/wasa_v7.6.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin https://gitlab.com/kibria2018/wasa_v7.6.git
+git push -u origin --all
+git push -u origin --tags

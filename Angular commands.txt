@@ -1,0 +1,29 @@
+check node and npm version if not recognized install nodeJs
+~node -v
+~npm -v
+
+install angular cli
+~npm i @angular/cli
+
+check angular/cli version
+~ng version
+
+create new angular project
+~ng new app-name
+
+install required packages for existing project (from package.json)
+~npm install
+
+run the project
+~ng serve 
+or 
+~npm start
+
+generate app-routing module
+~ng generate module app-routing --flat --module=app
+
+generate module; go to the page folder and run
+~ng g module module-name
+
+generate components; go to the required folder
+~ng g c components-name

@@ -1,0 +1,6 @@
+to install any python library
+~pip install <package>
+
+or
+
+~python3 -m pip isntall <package>

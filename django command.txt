@@ -1,0 +1,4 @@
+run the Django command-line utilities to create the database tables automatically after create a model
+~python manage.py makemigrations
+~python manage.py migrate
+
