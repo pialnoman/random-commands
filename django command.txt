@@ -8,10 +8,8 @@ run the Django command-line utilities to create the database tables automaticall
 ~python manage.py makemigrations
 ~python manage.py migrate
 
-create a super user
+create super user
 ~python manage.py createsuperuser
 
-to run the server
+run the server
 ~python manage.py runserver
-
-
