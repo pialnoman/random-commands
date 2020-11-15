@@ -1,5 +1,0 @@
-<package>==version
-<package2>==version
-<package3>==version
-<package4>==version
-<package5>==version

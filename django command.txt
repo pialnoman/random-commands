@@ -1,4 +1,17 @@
+create virtual environment
+~python -m venv venv
+
+install required packages
+~pip install -m requirements.txt
+
 run the Django command-line utilities to create the database tables automatically after create a model
 ~python manage.py makemigrations
 ~python manage.py migrate
+
+create a super user
+~python manage.py createsuperuser
+
+to run the server
+~python manage.py runserver
+
 

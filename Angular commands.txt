@@ -27,3 +27,4 @@ generate module; go to the page folder and run
 
 generate components; go to the required folder
 ~ng g c components-name
+
